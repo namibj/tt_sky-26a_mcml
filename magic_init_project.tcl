@@ -8,7 +8,7 @@
 
 # Change the settings below to match your design:
 # ------------------------------------------------
-set TOP_LEVEL_CELL     tt_um_analog_example
+set TOP_LEVEL_CELL     tt_um_mcml_vco
 set TEMPLATE_FILE      tt_analog_1x2.def
 set POWER_STRIPE_WIDTH 2um                 ;# The minimum width is 1.2um
 
@@ -18,7 +18,7 @@ set POWER_STRIPES {
     VGND  4um
 }
 # If you use the 3v3 template, uncomment the line below:
-#lappend POWER_STRIPES VAPWR 7um
+lappend POWER_STRIPES VAPWR 7um
 
 # Read in the pin positions
 # -------------------------
