@@ -16,6 +16,14 @@ set POWER_STRIPE_WIDTH 2um                 ;# The minimum width is 1.2um
 set POWER_STRIPES {
     VDPWR 1um
     VGND  4um
+    VGND 105.55000um
+    VDPWR 108.27000um
+    VGND 110.99000um
+    VGND 112.99000um
+    VGND 119.78000um
+    VGND 122.76500um
+    VDPWR 125.48500um
+    VGND 128.20500um
 }
 # If you use the 3v3 template, uncomment the line below:
 lappend POWER_STRIPES VAPWR 7um

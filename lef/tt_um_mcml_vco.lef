@@ -422,6 +422,14 @@ MACRO tt_um_mcml_vco
       LAYER met4 ;
         RECT 1.000 5.000 3.000 220.760 ;
     END
+    PORT
+      LAYER met4 ;
+        RECT 108.270 5.000 110.270 220.760 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 125.485 5.000 127.485 220.760 ;
+    END
   END VDPWR
   PIN VGND
     DIRECTION INOUT ;
@@ -429,6 +437,30 @@ MACRO tt_um_mcml_vco
     PORT
       LAYER met4 ;
         RECT 4.000 5.000 6.000 220.760 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 105.550 5.000 107.550 220.760 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 110.990 5.000 112.990 220.760 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 112.990 5.000 114.990 220.760 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 119.780 5.000 121.780 220.760 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 122.765 5.000 124.765 220.760 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 128.205 5.000 130.205 220.760 ;
     END
   END VGND
   PIN VAPWR
