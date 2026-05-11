@@ -1,0 +1,67 @@
+* NGSPICE file created from tt_um_mcml_vco.mag.ext - technology: sky130A
+
+.subckt tt_um_mcml_vco.mag clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6]
++ ua[7] ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uio_in[0]
++ uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[0]
++ uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0]
++ uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0]
++ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR VGND
++ VAPWR
+C0 VDPWR VGND 12.9181f
+C1 VAPWR VGND 12.9181f
+C2 ua[0] w_200_0# 0.14696f
+C3 ua[1] w_200_0# 0.14696f
+C4 ua[2] w_200_0# 0.14696f
+C5 ua[3] w_200_0# 0.14696f
+C6 ua[4] w_200_0# 0.14696f
+C7 ua[5] w_200_0# 0.14696f
+C8 ua[6] w_200_0# 0.14696f
+C9 ua[7] w_200_0# 0.14696f
+C10 VAPWR w_200_0# 25.4528f
+C11 VGND w_200_0# 31.29738f
+C12 VDPWR w_200_0# 25.4528f
+C13 ena w_200_0# 0.10141f
+C14 clk w_200_0# 0.10492f
+C15 rst_n w_200_0# 0.10492f
+C16 ui_in[0] w_200_0# 0.10492f
+C17 ui_in[1] w_200_0# 0.10492f
+C18 ui_in[2] w_200_0# 0.10492f
+C19 ui_in[3] w_200_0# 0.10492f
+C20 ui_in[4] w_200_0# 0.10492f
+C21 ui_in[5] w_200_0# 0.10492f
+C22 ui_in[6] w_200_0# 0.10492f
+C23 ui_in[7] w_200_0# 0.10492f
+C24 uio_in[0] w_200_0# 0.10492f
+C25 uio_in[1] w_200_0# 0.10492f
+C26 uio_in[2] w_200_0# 0.10492f
+C27 uio_in[3] w_200_0# 0.10492f
+C28 uio_in[4] w_200_0# 0.10492f
+C29 uio_in[5] w_200_0# 0.10492f
+C30 uio_in[6] w_200_0# 0.10492f
+C31 uio_in[7] w_200_0# 0.10492f
+C32 uo_out[0] w_200_0# 0.10492f
+C33 uo_out[1] w_200_0# 0.10492f
+C34 uo_out[2] w_200_0# 0.10492f
+C35 uo_out[3] w_200_0# 0.10492f
+C36 uo_out[4] w_200_0# 0.10492f
+C37 uo_out[5] w_200_0# 0.10492f
+C38 uo_out[6] w_200_0# 0.10492f
+C39 uo_out[7] w_200_0# 0.10492f
+C40 uio_out[0] w_200_0# 0.10492f
+C41 uio_out[1] w_200_0# 0.10492f
+C42 uio_out[2] w_200_0# 0.10492f
+C43 uio_out[3] w_200_0# 0.10492f
+C44 uio_out[4] w_200_0# 0.10492f
+C45 uio_out[5] w_200_0# 0.10492f
+C46 uio_out[6] w_200_0# 0.10492f
+C47 uio_out[7] w_200_0# 0.10492f
+C48 uio_oe[0] w_200_0# 0.10492f
+C49 uio_oe[1] w_200_0# 0.10492f
+C50 uio_oe[2] w_200_0# 0.10492f
+C51 uio_oe[3] w_200_0# 0.10492f
+C52 uio_oe[4] w_200_0# 0.10492f
+C53 uio_oe[5] w_200_0# 0.10492f
+C54 uio_oe[6] w_200_0# 0.10492f
+C55 uio_oe[7] w_200_0# 0.10141f
+.ends
+
